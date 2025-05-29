@@ -1,0 +1,56 @@
+<ion-header class="header">
+  <div class="circle-btn">
+    <ion-icon name="arrow-back-outline"></ion-icon>
+  </div>
+  <span class="title">Citas Médicas</span>
+  <div class="circle-btn">
+    <ion-icon name="notifications-outline"></ion-icon>
+  </div>
+</ion-header>
+
+<ion-content class="perfil-content">
+  <div class="citas-container">
+    <h2 class="section-title">Citas Agendadas</h2>
+
+    <ion-card class="cita-item">
+      <ion-card-content>
+        <p><strong>Paciente:</strong> Nombre del paciente</p>
+        <p><strong>Unidad Médica:</strong></p>
+        <p><strong>Médico:</strong> Nombre del paciente</p>
+        <p><strong>Turno:</strong> Matutino</p>
+        <p><strong>Fecha:</strong> 14/AGO/2025</p>
+        <p><strong>Hora:</strong> 17:30 HRS</p>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card class="cita-agendar">
+      <ion-card-content>
+        <ion-icon name="calendar-outline"></ion-icon> Agendar nueva cita
+        <ion-icon name="add-outline" slot="end"></ion-icon>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card class="cita-unidades">
+      <ion-card-content>
+        <ion-icon name="navigate-outline"></ion-icon>
+        Unidades médicas más cercanas
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
+
+<ion-footer class="custom-footer">
+  <ion-toolbar>
+    <ion-buttons slot="start" class="footer-icons">
+      <ion-button fill="clear">
+        <ion-icon name="home-outline"></ion-icon>
+      </ion-button>
+      <ion-button fill="clear">
+        <ion-icon name="person-outline"></ion-icon>
+      </ion-button>
+      <ion-button fill="clear">
+        <ion-icon name="settings-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

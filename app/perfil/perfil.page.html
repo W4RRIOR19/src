@@ -1,0 +1,81 @@
+<ion-header class="header">
+  <div class="circle-btn">
+    <ion-icon name="arrow-back-outline"></ion-icon>
+  </div>
+  <span class="title">Mi Perfil</span>
+  <div class="circle-btn">
+    <ion-icon name="notifications-outline"></ion-icon>
+  </div>
+</ion-header>
+
+<ion-content class="perfil-content">
+  <div class="perfil-avatar-container">
+    <ion-avatar class="perfil-avatar">
+      <img src="https://static.vecteezy.com/system/resources/previews/000/550/731/original/user-icon-vector.jpg" alt="Foto de perfil">
+    </ion-avatar>
+  </div>
+
+  <div class="perfil-grid">
+    <div class="grid-item">
+      <strong>Nombre</strong><br>Jonathan
+    </div>
+    <div class="grid-item">
+      <strong>Apellidos</strong><br>De La cruz Alv.
+    </div>
+    <div class="grid-item">
+      <strong>Edad</strong><br>30
+    </div>
+  </div>
+
+  <ion-card class="accion-card">
+    <div class="accion-content">
+      <span>Antecedente medico</span>
+      <ion-icon name="search-outline"></ion-icon>
+    </div>
+  </ion-card>
+
+  <ion-card class="accion-card">
+    <div class="accion-content">
+      <span>Mi cartilla</span>
+      <ion-icon name="download-outline"></ion-icon>
+    </div>
+  </ion-card>
+
+  <ion-card class="info-card">
+    <ion-card-content>
+      <p><strong>NSS:</strong> 123-45-6789</p>
+      <p><strong>CURP:</strong> ABCD123456EF789GH</p>
+      <p><strong>TEL:</strong> 99-31-76-01-00</p>
+      <p><strong>Dirección:</strong> Andador corugue 424, Ciudad</p>
+      <p><strong>SEXO:</strong> Masculino</p>
+      <p><strong>FECHA DE NACIMIENTO:</strong> 03/07/2003</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-grid>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="auto" class="ion-text-center">
+        <ion-button class="edit-btn" fill="solid">
+          <ion-icon name="create-outline" slot="start"></ion-icon>
+          Editar
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+<ion-footer class="custom-footer">
+  <ion-toolbar>
+    <ion-buttons slot="start" class="footer-icons">
+      <ion-button fill="clear">
+        <ion-icon name="home-outline"></ion-icon>
+      </ion-button>
+      <ion-button fill="clear">
+        <ion-icon name="person-outline"></ion-icon>
+      </ion-button>
+      <ion-button fill="clear">
+        <ion-icon name="settings-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

@@ -1,0 +1,58 @@
+<ion-header class="header">
+  <div class="circle-btn">
+    <ion-icon name="arrow-back-outline"></ion-icon>
+  </div>
+  <span class="title">Consultas Médicas</span>
+  <div class="circle-btn">
+    <ion-icon name="notifications-outline"></ion-icon>
+  </div>
+</ion-header>
+
+<ion-content class="perfil-content">
+  <div class="consulta-container">
+    <ion-chip color="primary" outline>
+      <ion-label>PRIORIDAD</ion-label>
+    </ion-chip>
+
+    <ion-card class="paciente-card">
+      <ion-card-content>
+        <p><strong>Paciente:</strong> Nombre del paciente</p>
+        <p><strong>Tipo de consulta:</strong></p>
+        <p><strong>Fecha:</strong> 14/AGO/2025</p>
+        <p><strong>Peso:</strong></p>
+        <p><strong>Talla:</strong></p>
+        <p><strong>Presión Arterial:</strong></p>
+      </ion-card-content>
+    </ion-card>
+
+    <div class="diagnostico-area">
+      <p><strong>DIAGNÓSTICO</strong></p>
+      <div class="diagnostico-box"></div>
+    </div>
+
+    <ion-button expand="block" class="btn-consulta">
+      <ion-icon name="document-outline" slot="start"></ion-icon>
+      Receta
+    </ion-button>
+    <ion-button expand="block" class="btn-consulta">
+      <ion-icon name="search-outline" slot="start"></ion-icon>
+      Consulta
+    </ion-button>
+  </div>
+</ion-content>
+
+<ion-footer class="custom-footer">
+  <ion-toolbar>
+    <ion-buttons slot="start" class="footer-icons">
+      <ion-button fill="clear">
+        <ion-icon name="home-outline"></ion-icon>
+      </ion-button>
+      <ion-button fill="clear">
+        <ion-icon name="person-outline"></ion-icon>
+      </ion-button>
+      <ion-button fill="clear">
+        <ion-icon name="settings-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>
